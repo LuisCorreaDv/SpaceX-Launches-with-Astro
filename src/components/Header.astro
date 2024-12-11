@@ -16,8 +16,25 @@ console.log("javascript");
   <nav
     class="flex flex-col items-center justify-between w-full text-center md:flex-row"
   >
-    <HeaderButton class="text-white" href="/">Ultimos lanzamientos</HeaderButton
-    >
+    <HeaderButton class="text-white" href="/">
+      <svg
+        slot="before"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon-tabler icons-tabler-outline icon-tabler-rocket"
+        ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+          d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"
+        ></path><path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path><path
+          d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path></svg
+      >
+      Ultimos lanzamientos
+    </HeaderButton>
     <HeaderButton class="text-white" href="/about">
       <svg
         slot="before"
@@ -36,7 +53,25 @@ console.log("javascript");
       >
       Sobre el proyecto
     </HeaderButton>
-    <HeaderButton class="text-white" href="/oldest">Los mas viejos</HeaderButton
-    >
+    <HeaderButton class="text-white" href="/oldest">
+      <svg
+        slot="before"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon-tabler icons-tabler-outline icon-tabler-clock-pin"
+        ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+          d="M20.971 11.278a9 9 0 1 0 -8.313 9.698"></path><path
+          d="M12 7v5l1.5 1.5"></path><path
+          d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z"
+        ></path><path d="M19 18v.01"></path></svg
+      >
+      Los mas viejos
+    </HeaderButton>
   </nav>
 </header>
